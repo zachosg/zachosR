@@ -1,9 +1,10 @@
 ## zachosR
-#dvjdvbdjvd
-*ward.D2*
-###read.table(c)
-**gym**
-* gym
-* protein
-* food
-* hierarchical clustering
+**dat=mtcars**
+
+*pcars=scale(dat)*
+
+*p=dist(pcars)
+* c=hclust(p,method = "ward.D2")
+* plot(c)
+* rect.hclust(c,k=4)
+
